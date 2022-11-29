@@ -27,3 +27,28 @@ printf("%c\n", mychar);  //print the charachter
 //printf("My favorite number is: %d", x); //with message
 }
 
+#include <stdio.h>
+const int myNum = 15; //const a value is integer and the value is 15
+//Notice:because const if I do myNum = 10; this possible error
+main() {
+int x = 5;
+int y = 6;
+//we need a varriable to make some calulate.
+int sum = x + y;
+//the value sum=11 because 5+6=11.
+}
+
+#include <stdio.h>
+main() {
+int a=5;
+int b=3;
+if (a > b) {
+printf("a=%d is greater than b=%d",a,b);
+}
+
+
+
+
+
+
+
