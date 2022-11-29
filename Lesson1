@@ -1,19 +1,29 @@
 // This is a comment
 /* COMMENT AGAIN */
 
-#include <stdio.h>
+#include <stdio.h> //The library to write C programm 
+//int main(): integer function return 0 (line 8) Notice:int because it return a integer value
 int main() {
-printf("Hello World!");
+//for float value we use float main(){} in the console it print something like 0.000000
+printf("Hello World!"); //Print message on console.
 return 0;
   
 #include <stdio.h>
 main() {
+//MESSAGE IN ONE LINE 
 printf("Hello World!");
+//MESSAGE IN MANY LINES
 //printf("Hello World!\nI am learning C.\nAnd it is awesome!"); // This is a comment
 }
 
 #include <stdio.h>
 main() {
-int x=5;
-printf(x); 
+int x=5; //Integer variable
+float myFloat = 5.6;   // Float variable
+char mychar = 'X'; //Charachter variable
+printf("%d", x); //You print only the value
+printf("%f\n", myFloat); //print float value
+printf("%c\n", mychar);  //print the charachter 
+//printf("My favorite number is: %d", x); //with message
 }
+
