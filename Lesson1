@@ -1,6 +1,9 @@
 // This is a comment
 /* COMMENT AGAIN */
 
+//If you see something like this main() on your programm that means you have a funtion.
+
+//Title:What is int main()function means.
 #include <stdio.h> //The library to write C programm 
 //int main(): integer function return 0 (line 8) Notice:int because it return a integer value
 int main() {
@@ -8,6 +11,7 @@ int main() {
 printf("Hello World!"); //Print message on console.
 return 0;
   
+//Title:Message print solutions.  
 #include <stdio.h>
 main() {
 //MESSAGE IN ONE LINE 
@@ -16,6 +20,7 @@ printf("Hello World!");
 //printf("Hello World!\nI am learning C.\nAnd it is awesome!"); // This is a comment
 }
 
+//Title:print variables on the console.
 #include <stdio.h>
 main() {
 int x=5; //Integer variable
@@ -27,6 +32,7 @@ printf("%c\n", mychar);  //print the charachter
 //printf("My favorite number is: %d", x); //with message
 }
 
+//Title:Calculate values of varriables
 #include <stdio.h>
 const int myNum = 15; //const a value is integer and the value is 15
 //Notice:because const if I do myNum = 10; this possible error
@@ -38,13 +44,54 @@ int sum = x + y;
 //the value sum=11 because 5+6=11.
 }
 
+//Title:If Conditions calculate
 #include <stdio.h>
 main() {
 int a=5;
 int b=3;
-if (a > b) {
+if (a > b) { 
+//This means {} more commands to run
+//if the condition is True go to line56
+//If its false go to line 58
 printf("a=%d is greater than b=%d",a,b);
 }
+else if (a < b) {
+//If the condition is True go to line 58
+printf("b=%d is greater than a=%d",b,a);
+}
+}//close main
+
+//Title: Case function (like if )
+#include <stdio.h>
+main() {
+int day = 4;
+switch (day) {
+  case 1:
+    printf("Monday");
+    break;
+  case 2:
+    printf("Tuesday");
+    break;
+  case 3:
+    printf("Wednesday");
+    break;
+  case 4:
+    printf("Thursday"); //Thats my print because value=4;
+    break;
+  case 5:
+    printf("Friday");
+    break;
+  case 6:
+    printf("Saturday");
+    break;
+  case 7:
+    printf("Sunday");
+    break;
+}
+}
+
+
+
 
 
 
